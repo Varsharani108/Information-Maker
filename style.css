@@ -1,0 +1,73 @@
+#frm{
+    margin: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 30px;
+    margin-top: -40px;
+}
+#input{
+    height: 30px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+#nameInput{
+    height: 30px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+#emailInput{
+    height: 30px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+#mobileInput{
+    height: 30px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+#alternatemobileInput{
+    height: 30px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 70px;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+body{
+    background-image: url("fmimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#box{
+    float: right;
+    height: 400px;
+    width: 500px;
+    background-image: url("img.jpg");
+    margin-top: -600px;
+    margin-right: 50px;
+
+}
+#submit{
+    height: 40px;
+    width: 80px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-right: 90px;
+
+}
+.centered-box {
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    line-height: 20px;
+  }
