@@ -71,3 +71,33 @@ body{
     padding-left: 20px;
     line-height: 20px;
   }
+  /* Your existing CSS */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+    }
+
+    #box {
+        float: none;
+        margin-top: 20px;
+        margin-right: 0;
+        width: auto;
+    }
+
+    #submit {
+        margin-right: 0;
+    }
+
+    /* Adjust input and textarea width for smaller screens */
+    #nameInput,
+    #emailInput,
+    #mobileInput,
+    #alternatemobileInput,
+    textarea,
+    #input {
+        width: 90%;
+        max-width: 300px;
+    }
+}
